@@ -1,1 +1,179 @@
+body {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    background-color: #cccccc;
+    font-size: 16px;
+    line-height: 1.4em;
+    letter-spacing: 0.02em;
+    margin: 0;
+}
 
+.container {
+    height: 60px;
+    margin-top: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+
+}
+
+.top {
+    float: center;
+    background-color: #ffffff;
+    height: 60px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    border-bottom: solid 2px #777777;
+    padding: 0px 40px 0px 40px;
+}
+
+header {
+    font-family: "Georgia", "Times", "Times New Roman", serif;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    height: 40px;
+    font-size: 24px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    display: inline-block;
+    padding: 20px 20px 0px 20px;
+    border-bottom: solid 2px #777777;
+
+}
+
+nav {
+    float: right;
+    text-decoration: none;
+    padding: 20px 0px 20px 20px;
+    position: fixed;
+    right: 40px;
+    display: inline-block;
+
+}
+
+nav > a {
+    color: #777777;
+    display: inline-block;
+    margin: 0px 20px 0px 0px;
+
+}
+
+nav > a:hover {
+    color: #4aaaa5;
+    display: inline-block;
+
+}
+
+h1,
+h2 {
+    font-family: "Georgia", "Times", "Times New Roman", serif;
+    text-align: left;
+    font-size: 24px;
+}
+
+
+
+.main {
+    width: 920px;
+    background-color: #ffffff;
+    padding: 5px 20px 20px 20px;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    top: 90px
+}
+
+.clear {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.aboutme {
+    float: center;
+    padding-top: 20px;
+    text-align: justify;
+}
+
+.aboutimg {
+    float: left;
+    height: 200px;
+    width: 200px;
+    padding: 20px 20px 0px 0px;
+}
+
+.button1 {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 5px 7px;
+    border-color: gray;
+    border-radius: 7px;
+}
+
+.button1:hover {
+    background-color: gray;
+    color: white;
+}
+
+input {
+    padding: 0;
+    border-radius: 7px;
+}
+
+input[type=text]:focus {
+    border: 3px solid lightgray;
+    background-color: #f3f7f3;
+}
+
+.input-pos {
+    position: absolute;
+    left: 120px;
+}
+
+textarea {
+    margin: 3px 0;
+    border-radius: 7px;
+}
+
+textarea:focus {
+    border: 3px solid lightgray;
+    background-color: #f3f7f3;
+}
+
+
+
+footer {
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    height: 60px;
+    margin-top: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.gallery {
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.gallery > img {
+    padding: 10px;
+}
+
+.contact {
+    margin: 0 auto;
+}
