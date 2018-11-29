@@ -29,7 +29,7 @@ body {
     top: 0px;
     width: 100%;
     border-bottom: solid 2px #777777;
-    padding: 0px 40px 0px 40px;
+    padding: 0px 0px 0px 0px;
 }
 
 header {
@@ -39,7 +39,7 @@ header {
     height: 40px;
     font-size: 24px;
     margin-bottom: 0px;
-    margin-left: 0px;
+    margin-left: 110px;
     display: inline-block;
     padding: 20px 20px 0px 20px;
     border-bottom: solid 2px #777777;
@@ -51,7 +51,7 @@ nav {
     text-decoration: none;
     padding: 20px 0px 20px 20px;
     position: fixed;
-    right: 40px;
+    right: 100px;
     display: inline-block;
 
 }
@@ -97,7 +97,6 @@ a {
 }
 
 a:hover {
-    font-weight: bold;
 }
 
 .aboutme {
