@@ -116,7 +116,6 @@ a:hover {
     background-color: #4aaaa5;
     color: white;
     padding: 5px 7px;
-    border-color: gray;
     border-radius: 7px;
 }
 
@@ -126,14 +125,30 @@ a:hover {
 }
 
 input {
-    padding: 0;
-    border-radius: 7px;
+    padding: 5px;
+    width: 900px;
+    margin-bottom: 10px;
 }
 
-input[type=text]:focus {
-    border: 3px solid lightgray;
-    background-color: #f3f7f3;
+input[type=submit] {
+    background-color: #4aaaa5;
+    width: 90px;
+    margin-top: 10px;
+    padding: 5px 7px;
+    font-size: 14px;
+    color: #ffffff;
 }
+input[type=submit]:hover {
+    background-color: #777777;
+
+}
+
+
+input[type=message] {
+    height: 100px;
+}
+
+
 
 .input-pos {
     position: absolute;
@@ -142,7 +157,6 @@ input[type=text]:focus {
 
 textarea {
     margin: 3px 0;
-    border-radius: 7px;
 }
 
 textarea:focus {
@@ -175,4 +189,13 @@ footer {
 
 .contact {
     margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
 }
